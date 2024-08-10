@@ -10,6 +10,7 @@ The codebase features a structured OOP design with multiple classes including an
 Throughout this project, I have adhered to the Google C++ Style Guide, ensuring that the code is clean, consistent, and follows industry-standard practices.
 
 **Feel free to check this project out!**
+_To run this project, cmake is required._
 
 # How to use (terminal)
 
