@@ -1,12 +1,15 @@
 
-# Assignment 1
+# Mechdonalds Project Assignment (Completed September 2023)
 
-See the handout for instructions.
+This was the first project assignment that helped me to develop confidence with object-oriented programing principles, such as encapsulation, inheritance, polymorphism and classes. In this C++ based Mechdonalds Project, I have developed a robust OOP solution to simulate basic operations in a fast food restaurant e.g placing food orders, generating end-of-day sales report. 
 
-# Using the Debugger
+The codebase features a structured OOP design with multiple classes including an abstract food item class, extended by 3 subclasses - burger, drink and combo classes which shares similar characteristics. Through this design choice of utilising inheritance and polymorphism, the codebase is modular and maintainable.
 
-If you are getting unexpected results, you can use the debugger to step through your code and see what is happening. Simply place a "breakpoint" on the line of code you want to start debugging from, and then click the "Debug" button. The debugger will start and you can step through your code line by line. You can also inspect the values of variables as you step through your code. This is extremely useful for finding out what is going wrong in your code.
 
+**Code Style**
+Throughout this project, I have adhered to the Google C++ Style Guide, ensuring that the code is clean, consistent, and follows industry-standard practices.
+
+**Feel free to check this project out!**
 
 # How to use (terminal)
 
@@ -33,10 +36,3 @@ If you are getting unexpected results, you can use the debugger to step through 
   ctest -V -R Task_1_ZeroAccounts # run a single specific test case in verbose mode
   ```
 
-# How to use (graphical interface)
-
-When the project is opened in Visual Studio Code, at the bottom is a blue status bar with various CMake options: 
-* `Build` will build the project. Do this every time the code is changed, and before running/debugging/testing.
-* `Run` will run the project interactively (runs the `src/main.cpp` file). Be sure to build first if the code has changed. Also be sure to kill the previously-running program before running again.
-* `Debug` will run the project in debug mode (runs the `src/main.cpp` file). This allows you to set breakpoints and step through the code. Be sure to build first if the code has changed. Also be sure to kill the previously-running program before running again.
-* `Run CTest` will run the test cases (runs the `test/tester.cpp` file). In VS Code, this will open up the GUI Test Runner. Run the tests by pressing the triangle arrow (either run all test cases, or one at a time). A green tick appears for passed test cases, or red cross for failed, or red dot for some other error if it cannot finish the test case. For verbose output, go to the `TEST RESULTS` tab at the bottom, and click on the most recent test run on the right-hand side of that tab. The output should then appear. 
